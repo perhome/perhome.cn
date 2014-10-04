@@ -21,10 +21,13 @@
 	url = https://github.com/kohana/userguide.git
 [submodule "modules/cache"]
 	path = modules/cache
-	url = https://github.com/kohana/cache.git
+	url = git@github.com:perhome/kohana-cache.git
 [submodule "modules/unittest"]
 	path = modules/unittest
 	url = https://github.com/kohana/unittest.git
 [submodule "modules/minion"]
 	path = modules/minion
 	url = https://github.com/kohana/minion.git
+[submodule "modules/ssdb"]
+	path = modules/ssdb
+	url = git@github.com:perhome/kohana-ssdb.git
