@@ -31,3 +31,9 @@
 [submodule "modules/cache"]
 	path = modules/cache
 	url = git@github.com:perhome/kohana-cache.git
+[submodule " modules/account"]
+	path = modules/account
+	url = git@github.com:perhome/kohana-account.git
+[submodule " modules/captcha"]
+	path = modules/captcha
+	url = git@github.com:perhome/kohana-captcha.git
