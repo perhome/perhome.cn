@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8"/>
-    <title>用户登录</title>
-    <link rel="shortcut icon" href="/media/favicon.ico?ver=0.1" /> 
-    <script type="text/javascript" src="/media/jquery-2.0.2.min.js"></script>    
-    <link type="text/css" href="/media/pure-min.css" rel="stylesheet" />
+  <meta charset="utf-8"/>
+  <title>程序预览</title>
+  <link rel="shortcut icon" href="/media/favicon.ico?ver=0.1" /> 
+  <script type="text/javascript" src="/media/jquery-2.0.2.min.js"></script>    
+  <link type="text/css" href="/media/pure-min.css" rel="stylesheet" />
+  <style>
+    .pure-g {
+      margin-left: 50px;
+    }
+  </style>
 <body>
 <div class="pure-g">
   <div class="pure-u-1">

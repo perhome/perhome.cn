@@ -4,7 +4,6 @@ class Controller_Home extends Controller_Template {
 
 	public function action_index()
 	{
-    print_r(Ac::$user);
 	}
 
 } // End Home
