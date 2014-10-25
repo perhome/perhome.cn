@@ -27,13 +27,14 @@ abstract class Controller_Template extends Controller {
 	{
 		parent::before();
 
-    $this->model_account = Model_Account::instance();
-    $this->model_article = Model_Article_Core::instance();
-    
+    $this->core = Kohana::$config->load('core');
+    $this->cache = Kohana::$config->load('cache.'.Cache::$default);
+    $this->response->headers('cache-control', 'max-age='.$this->cache['default_expire']); 
     if ($this->auto_render === TRUE)
 		{
 			// Load the template
 			$this->template = View::factory($this->template);
+      $this->template->bind_global('core', $this->core);
 		}
 	}
 

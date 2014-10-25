@@ -115,17 +115,17 @@ Kohana::$config->attach(new Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	   'auth'       => MODPATH.'auth',       // Basic authentication
+	// 'auth'       => MODPATH.'auth',       // Basic authentication
 	   'cache'      => MODPATH.'cache',      // Caching with multiple backends
-	   'account'    => MODPATH.'account',    //
+	// 'account'    => MODPATH.'account',    //
 	   'article'    => MODPATH.'article',    //
-	   'markdown'   => MODPATH.'markdown',   //
-	   'captcha'    => MODPATH.'captcha',    //
-	   'pagination' => MODPATH.'pagination', // 
+	// 'markdown'   => MODPATH.'markdown',   //
+	// 'captcha'    => MODPATH.'captcha',    //
+	// 'pagination' => MODPATH.'pagination', // 
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
-	   'database'   => MODPATH.'database',   // Database access
+	// 'database'   => MODPATH.'database',   // Database access
 	   'ssdb'       => MODPATH.'ssdb',       // Ssdb access
-	   'image'      => MODPATH.'image',      // Image manipulation
+	// 'image'      => MODPATH.'image',      // Image manipulation
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
@@ -134,8 +134,18 @@ Kohana::modules(array(
 
 Cache::$default  = 'ssdb';
 Session::$default = 'ssdb';
-Cookie::$salt = 'this is a cookie salt';
+Cookie::$salt = 'afsdfdsfdsoluyl2i54h3l5h435';
 
+Route::set('links', '<action>(/<id>)(<suffix>)', 
+  array(
+    'action'=>'(aboutme|service|product|faq|contact)', 
+    'id'=>'\d+', 
+    'suffix'=>'\.html?')
+  )
+	->defaults(array(
+		'controller' => 'home',
+		'action'     => 'index',
+	));
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.

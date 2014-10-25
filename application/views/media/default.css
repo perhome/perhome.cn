@@ -1,0 +1,109 @@
+body { 
+  color: #000;  
+  line-height: 1.6em;
+  background: url() #F4F4F4 center top  fixed repeat-x;
+}
+    
+a { 
+  color: #333;
+  text-decoration: none; 
+}
+  
+a:hover {
+  color: #33AC71;
+}
+
+ol,ul,li {
+  padding: 0;
+  list-style: none;
+}
+h3 {
+  color: #444;
+}
+hr { 
+  border: none; 
+  clear: both; 
+  height:0; 
+  background:none; margin:0; padding:0; border-bottom:1px solid #f4f4f4;  margin: 0.5em 0; 
+}
+
+.pure-g {
+}
+
+.main-page {
+  max-width: 60em;
+  min-width: 41.87em;
+  margin: 0 auto;
+}
+.content a {
+  text-decoration: underline; 
+}
+.main-menu {
+  background-color: #33AC71;
+  line-height: 2.6em;
+  height: 2.6em;
+  padding: 0 10px;
+}
+.main-menu a {
+  margin-right: 1em;
+  color: #fff;
+}
+.mail-left {
+}
+.logo {
+  letter-spacing: -2px;
+}
+.logo, .logo a {
+  color: #000;
+}
+
+.content {
+  margin: 0 1em; 
+}
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+    border: 1px solid #f5f5f5;
+}
+
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.pure-button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.copyright { 
+  text-align: right;
+}
+
+.pannel {
+  padding: 0.67em 0;
+  text-align: right;
+}
+#footer {
+  color:#555;
+  margin-top: 20px;
+  border-top: 1px solid #999;
+  padding: 10px 0;
+}
+.hot, a.hot:hover {
+  color: #000;
+}
