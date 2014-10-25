@@ -117,10 +117,11 @@ Kohana::$config->attach(new Config_File);
 Kohana::modules(array(
 	   'auth'       => MODPATH.'auth',       // Basic authentication
 	   'cache'      => MODPATH.'cache',      // Caching with multiple backends
-	   'account'    => MODPATH.'account',      // Caching with multiple backends
-	   'article'    => MODPATH.'article',      // Caching with multiple backends
-	   'markdown'   => MODPATH.'markdown',      // Caching with multiple backends
-	   'captcha'    => MODPATH.'captcha',      // Caching with multiple backends
+	   'account'    => MODPATH.'account',    //
+	   'article'    => MODPATH.'article',    //
+	   'markdown'   => MODPATH.'markdown',   //
+	   'captcha'    => MODPATH.'captcha',    //
+	   'pagination' => MODPATH.'pagination', // 
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
 	   'database'   => MODPATH.'database',   // Database access
 	   'ssdb'       => MODPATH.'ssdb',       // Ssdb access

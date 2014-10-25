@@ -43,3 +43,6 @@
 [submodule "modules/markdown"]
 	path = modules/markdown
 	url = git@github.com:perhome/kohana-markdown.git
+[submodule "modules/pagination"]
+	path = modules/pagination
+	url = git@github.com:perhome/kohana-pagination.git
