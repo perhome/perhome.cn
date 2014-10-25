@@ -3,8 +3,8 @@
   <meta charset="utf-8"/>
   <title><?php echo $core->name; ?></title>
   <link rel="shortcut icon" href="<?php echo URL::base(); ?>media/favicon.ico?ver=0.1" /> 
-  <?php echo HTML::style(STATIC_HOME_URL .'r/pure/pure-min.css'); ?>
-  <?php echo HTML::style(STATIC_HOME_URL .'r/awesome/css/font-awesome.min.css'); ?>
+  <?php echo HTML::style(STATIC_HOME_URL .'media/pure/pure-min.css'); ?>
+  <?php echo HTML::style(STATIC_HOME_URL .'media/awesome/css/font-awesome.min.css'); ?>
   <?php echo HTML::script('media/olark.js'); ?>
   <?php echo HTML::style('media/default.css'); ?>
 </head>
