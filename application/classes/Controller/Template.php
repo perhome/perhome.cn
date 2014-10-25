@@ -28,11 +28,7 @@ abstract class Controller_Template extends Controller {
 		parent::before();
 
     $this->model_account = Model_Account::instance();
-    
-    if ($this->model_account->check_login(true) == false) 
-    {
-      $this->redirect('test_sigin');
-    }
+    $this->model_article = Model_Article_Core::instance();
     
     if ($this->auto_render === TRUE)
 		{

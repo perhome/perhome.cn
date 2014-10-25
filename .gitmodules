@@ -37,3 +37,9 @@
 [submodule "modules/captcha"]
 	path = modules/captcha
 	url = git@github.com:perhome/kohana-captcha.git
+[submodule "modules/article"]
+	path = modules/article
+	url = git@github.com:perhome/kohana-article.git
+[submodule "modules/markdown"]
+	path = modules/markdown
+	url = git@github.com:perhome/kohana-markdown.git

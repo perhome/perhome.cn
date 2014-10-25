@@ -15,8 +15,10 @@
   <div class="pure-u-1">
     <h1>测试用例</h1>
     <ul>
-    <li><?php echo HTML::anchor('test_sigin', '用户登录'); ?> </li>
-    <li><?php echo HTML::anchor('test_sigup', '用户注册'); ?> </li>
+    <li><?php echo HTML::anchor('test_sigup', '用户相关入口'); ?> </li>
+    <li><?php echo HTML::anchor('test_article', '文章相关入口'); ?> </li>
+    <li><?php echo HTML::anchor('test_markdown', 'markdown语法支持'); ?> </li>
+    <li><?php echo HTML::anchor('test_cache', '缓存测试'); ?> </li>
     </ul>
   </div>
 </div>

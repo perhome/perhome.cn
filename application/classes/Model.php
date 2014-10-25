@@ -17,8 +17,10 @@ abstract class Model  {
 			return Model::$instances[$group];
 		}
 		// Add the model prefix
-		$class = 'Model_'.$name;
-		Model::$instances[$group] = new $class;
+    if (substr($name, 0, 6) != 'Model_') {
+      $name = 'Model_'.$name;
+    }
+		Model::$instances[$group] = new $name;
     return Model::$instances[$group];
   }
 }

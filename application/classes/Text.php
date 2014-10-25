@@ -2,7 +2,7 @@
 
 class Text extends Kohana_Text {
 
-  public static function spell($str, $split = ' ')
+  public static function spell($str, $only_one=false, $split = ' ')
   {
     $cache = Cache::instance();
     $spell_data = $cache->get('cache:spell_data');
@@ -29,7 +29,7 @@ class Text extends Kohana_Text {
         }
       }
     }
-    return $result;
+    return $only_one?$result[0]:$result;
   }
 
 }
